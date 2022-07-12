@@ -2,7 +2,7 @@
 # pip install mysql-connector-python
 from mysql.connector import (connection)
 
-connect = connection.MySQLConnection(user='root', password='Babyna3***.',
+connect = connection.MySQLConnection(user='root', password='your password',
                                  host='localhost',
                                  database='employees')
 
