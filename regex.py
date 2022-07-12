@@ -1,5 +1,7 @@
 import re
 
+
+
 # \d- Any numeric digit from 0 to 9.
 # \D- Any character that is not a numeric digit from 0 to 9.
 # \w- Any letter, numeric digit, or the underscore character.
@@ -31,7 +33,7 @@ import re
 # match.group(2) = the second pair
 
 # ? -It is used to indicate an oprion
-# E.g the number below is a match even if the first are missing. 
+# E.g the number below is a match even if the first are missing.
 
 
 
@@ -46,5 +48,3 @@ if (match):
     print(f"Valid: {match.group()}")
 else:
     print("Invalid Email")
-
-
